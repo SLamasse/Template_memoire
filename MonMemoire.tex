@@ -1,0 +1,98 @@
+\documentclass{MemoireMimo}
+
+
+
+%% on doit lui dire où se trouve la bibliographie 
+\addbibresource{Bibliographie.bib}
+
+\makeindex
+\makeatletter
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Profondeur de \subsubsection = 3 pour le sommaire%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{tocdepth}{3} % Dans la table des matieres
+\setcounter{secnumdepth}{3} % Avec un numero.
+
+
+
+
+%      Renseignements pour la page de titre 	%
+\title{Mon oeuvre fabuleuse}	%% Le titre de l'oeuvre
+\author{Le nom de l'artiste}	%% Le nom de l'artiste
+\date{jj mois aaaa}		%% 02 mars 3012
+\tuteur{Prénom et Nom}
+\MaitreApprentissage{Monsieur}
+\jury{
+	Prénom \textsc{Nom}  (Professeur, Université Paris ??) & examinateur  \\
+        Prénom \textsc{Nom} (statut, Entreprise) & maître d'apprentissage \\
+}
+
+% dédicace à votre directeur de master 
+
+\dedicate{\og \fg } 
+
+%      Résumé de dernière page 	%
+\titleFR{Titre en français}
+\titleEN{Titre en anglais }
+\abstractFR{Mon résumé en français}
+\abstractEN{Mon résumé en anglais}
+\keywordsFR{quelques mots clefs en français}
+\keywordsEN{Les mêmes mots clefs mais en anglais}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+%%%
+%%%
+%%%
+%%%       Entrer dans le document
+%%%
+%%%
+%%%
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+% Insérer la page de présentation 
+ \maketitle
+
+%%% Il faut peut-être afficher la table des matières ?
+  \tableofcontents
+
+% \mainmatter
+
+
+
+%%%%%% Insertion des fichiers à compiler
+%    	       	\include{remerciements}
+%   	       	\include{abreviations} 	
+%            	\include{introduction}
+
+
+  
+%%%%%%%%%%%%% Traitement des annexes
+%%% liste des tableaux
+ % \listoftables{}
+
+%%% La liste des figures
+%  \listoffigures{}
+
+
+%%% un index des personnes
+% \printindex
+
+ 
+%%%%%%%%%%%%%%%%% 
+% début de bibliographie
+ % on utilise biber 
+%%%%%%%%%%%%%%%%%	
+\nocite{*}
+\printbibliography[title={Une bibliographie belle et précise}]
+
+\abstractpage
+\end{document}
+
