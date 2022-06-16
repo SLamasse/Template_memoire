@@ -25,9 +25,9 @@
 \RequirePackage{mathenv}
 \RequirePackage{dpfloat}
 \RequirePackage{array}
-\RequirePackage{color}
 \RequirePackage{graphics}
 \RequirePackage{calc}
+\RequirePackage{color}
 \RequirePackage{textcomp}
 \RequirePackage[dvips]{graphicx}  
 \RequirePackage{longtable} 
@@ -79,7 +79,8 @@
   \begin{center}%
     \setlength{\parskip}{3mm}
     {\bfseries 
-	\includegraphics[width=8cm]{logo/logouniversite}\\[0,5em]
+	\includegraphics[width=8cm]{logo/logouniversite}\\
+	\includegraphics[width=3cm]{logo/logo_mimo}\\[0,5em]
 	\textit{\nomDiplome}\par}
 	\begin{small}
 	        \vspace{0,5cm}
@@ -103,7 +104,7 @@
 
 
 
-%      \hfill \rule{1.3cm}{\linethickness} \hfill\null  
+
 
 
 
@@ -112,7 +113,7 @@
 
 
 
- %     \hfill \rule{1.3cm}{\linethickness} \hfill\null
+
 
 
 
