@@ -14,9 +14,7 @@
 %%%%%%%%%%%%%%%
 % Les packages utiles 
 %%%%%%%%%%%%%%%
-\LoadClass[a4paper,12pt,oneside,français]{book}
-\RequirePackage[frenchb]{babel}
-\RequirePackage[utf8]{inputenc} 
+\LoadClass[a4paper,12pt,oneside]{book}
 \RequirePackage[T1]{fontenc} 
 \RequirePackage{pslatex}
 \RequirePackage{aeguill}
@@ -30,7 +28,6 @@
 \RequirePackage{color}
 \RequirePackage{graphics}
 \RequirePackage{calc}
-\RequirePackage{color}
 \RequirePackage{textcomp}
 \RequirePackage[dvips]{graphicx}  
 \RequirePackage{longtable} 
@@ -106,7 +103,7 @@
 
 
 
-      \hfill \rule{1.3cm}{\linethickness} \hfill\null  
+%      \hfill \rule{1.3cm}{\linethickness} \hfill\null  
 
 
 
@@ -115,7 +112,7 @@
 
 
 
-      \hfill \rule{1.3cm}{\linethickness} \hfill\null
+ %     \hfill \rule{1.3cm}{\linethickness} \hfill\null
 
 
 
