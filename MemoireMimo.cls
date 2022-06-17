@@ -52,6 +52,13 @@
 \RequirePackage{geometry}
 \geometry{paperwidth=210mm, paperheight=297mm, left=71pt, right=60pt, top=60pt, marginparsep=30pt, marginparwidth=100pt, footskip=40pt}
 
+
+% encodage
+\usepackage{unicode-math}
+\setmainfont{TeX Gyre Pagella}
+\setmathfont{TeX Gyre Pagella Math}
+
+
 % interligne 
 \onehalfspacing
 
